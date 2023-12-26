@@ -64,13 +64,16 @@ class GlobeTemperatureCalculator:
         if self.C is not None:
             return self.C
         constant_factor = 5.3865 * 10**-8
-        u = u * 3600.0 #convert to m/h from m/s
-        return (self.h * self.u**0.58) / constant_factor
+        u = self.u * 3600.0 #convert to m/h from m/s
+        return (self.h * u**0.58) / constant_factor
 
     def calculate_globe_temperature(self):
         """Calculate the globe temperature (T_g)."""
         B = self.calculate_B()
         C = self.calculate_C()
+        print("B: ", B)
+        print("C: ", C)
+
         upper = B + C * self.T_a + 7680000
         bottom = C + 256000
         T_g = upper / bottom
