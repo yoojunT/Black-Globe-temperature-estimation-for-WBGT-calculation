@@ -1,5 +1,5 @@
 ## Background
-This is the code for the algorithm developed by Dimiceli et al. (2011), a widely implemented method especially utilized by the NOAA National Weather Service for wet bulb globe temperature (WBGT) forecasts with its slight modifications. Despite its widespread use, accessing the algorithm's code has been challenging to me, and its description in the original publication is difficult to comprehend, especially regarding the units of the variables involved. So here I'm sharing it here for greater accessibility and understanding!
+This is the code for the algorithm developed by Dimiceli et al. (2011), a widely implemented method especially utilized by the NOAA National Weather Service for wet bulb globe temperature (WBGT) forecasts with its slight modifications. Despite its widespread use, accessing the algorithm's code has been challenging to me, and its description in the original publication is difficult to comprehend, especially regarding the units of the variables involved. So I'm sharing it here for greater accessibility and understanding!
 
 </br>
 
